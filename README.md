@@ -28,7 +28,6 @@ Ensure you have Python 3 installed on your system. You will also need the follow
 1. Clone the repository:
 ```bash
 git clone [https://github.com/gaitxn/inkgen.git](https://github.com/gaitxn/inkgen.git)
-cd handwritten-text-engine
 ```
 
 2. Install the required dependencies:
@@ -47,7 +46,7 @@ python main.py
 
 ## Project Structure
 ```plaintext
-handwriting_engine/
+inkgen/
 │
 ├── data/               # Glyph and font configuration data
 │   ├── glyphs/         # Character and ligature instruction files
